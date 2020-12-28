@@ -1,67 +1,316 @@
 body {
-    background-color: #09c;
+  background-color: #09c;
 }
-
 
 /*Start Services Section*/
 
 .bg-services {
-    background-color: #f7f7f7;
-    padding: 50px 0px;
+  background-color: #f7f7f7;
+  padding: 50px 0px;
 }
 
 .services {
-    width: 85%;
-    margin: auto;
-    text-align: center;
+  width: 85%;
+  margin: auto;
+  text-align: center;
 }
 
 .services h2 {
-    font-size: 45px;
+  font-size: 45px;
 }
 
 .services .services-item {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .services .services-item .services-card {
-    background-color: #fff;
-    width: 30%;
-    padding: 50px 0px;
-    margin: 30px 0px;
+  background-color: #fff;
+  width: 30%;
+  padding: 50px 0px;
+  margin: 30px 0px;
 }
 
 .services .services-item .services-card .icon {
-    background-color: #f7f7f7;
-    color: #000;
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
-    margin: 20px auto;
-    transition: .5s all ease-in-out;
+  background-color: #f7f7f7;
+  color: #000;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  margin: 20px auto;
+  transition: 0.5s all ease-in-out;
 }
 
 .services .services-item .services-card:hover .icon {
-    background-color: #000;
-    color: #f7f7f7;
+  background-color: #000;
+  color: #f7f7f7;
 }
 
 .services .services-item .services-card h3 {
-    font-size: 1.8rem
+  font-size: 1.8rem;
 }
 
 .services .services-item .services-card p {
-    padding: 20px 10px;
-    font-size: 19px;
+  padding: 20px 10px;
+  font-size: 19px;
+}
+
+/*End Services Section*/
+
+/*===================AHMED KHALIFA===============*/
+
+/*Start Services Section*/
+
+.services h2 {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.services p {
+  font-size: 18px;
+}
+
+.services .border-center,
+.portfolio .portfolio-top .border-center,
+.blog .blog-top .border-center {
+  width: 45px;
+  height: 3px;
+  border-radius: 4px;
+  background-color: #0078ff;
+  margin: auto;
+}
+
+.services .card .card-body {
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.services .card .card-body i {
+  width: 125px;
+  height: 125px;
+  line-height: 115px;
+  font-size: 3rem;
+  border: 7px solid #0078ff;
+  transition: 0.5s all ease-in-out;
+}
+
+.services .card .card-body:hover i {
+  background-color: #0078ff;
+  color: #fff;
+  border: 7px solid #cde1f8;
+}
+
+.services .card .card-body .card-text {
+  font-size: 18px;
+}
+
+/*End Services Section*/
+
+/*Start Counter Section*/
+
+.counter {
+  background-image: url("../img/post-3.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+.counter .overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 120, 255, 0.7);
+}
+
+.counter .row {
+  height: 70vh;
+}
+
+.counter i {
+  font-size: 45px;
+}
+
+.counter .number {
+  font-size: 20px;
+  font-weight: 900;
+}
+/*===================AHMED KHALIFA===============*/
+
+
+/*Start Services Section*/
+
+.services h2 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.services p {
+    font-size: 18px
+}
+
+.services .border-center,
+.portfolio .portfolio-top .border-center,
+.blog .blog-top .border-center {
+    width: 45px;
+    height: 3px;
+    border-radius: 4px;
+    background-color: #0078ff;
+    margin: auto
+}
+
+.services .card .card-body {
+    background-color: #fff;
+    border-radius: 10px
+}
+
+.services .card .card-body i {
+    width: 125px;
+    height: 125px;
+    line-height: 115px;
+    font-size: 3rem;
+    border: 7px solid #0078ff;
+    transition: .5s all ease-in-out;
+}
+
+.services .card .card-body:hover i {
+    background-color: #0078ff;
+    color: #fff;
+    border: 7px solid #cde1f8
+}
+
+.services .card .card-body .card-text {
+    font-size: 18px
 }
 
 
+/*End Services Section*/
+
+
+/*Start Counter Section*/
+
+.counter {
+    background-image: url("../img/post-3.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.counter .overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 120, 255, .7);
+}
+
+.counter .row {
+    height: 70vh;
+}
+
+.counter i {
+    font-size: 45px
+}
+
+.counter .number {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+
+/*End Counter Section*/
+
+<<<<<<< HEAD
+/*End Counter Section*/
+=======
+/*End Services Section*/
+
+
+
+
+/*===================AMGAD===============*/
+
+
+/*Start Blog Section*/
+
+.blog .card .image1,
+.blog .card .image2,
+.blog .card .image3 {
+    position: relative;
+}
+
+.blog .card .image1:after,
+.blog .card .image2:after,
+.blog .card .image3:after {
+    width: 95px;
+    height: 27px;
+    background-color: #0078ff;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    line-height: 28px;
+    border-radius: 7px;
+    position: absolute;
+    bottom: -15px;
+    left: 38%
+}
+
+.blog .card .image1:after {
+    content: "Travel";
+}
+
+.blog .card .image2:after {
+    content: "Web Design";
+}
+
+.blog .card .image3:after {
+    content: "Web Design";
+}
+
+.blog .card a {
+    color: #000;
+    text-decoration: none;
+    transition: .5s all ease-in-out
+}
+
+.blog .card a:hover {
+    color: #0078ff
+}
+
+.blog .card .card-footer a {
+    font-size: 16px;
+    line-height: 36px;
+}
+
+.blog .card .card-footer .auther img {
+    width: 35px;
+    height: 35px
+}
+
+.blog .card .card-footer .time {
+    line-height: 35px;
+}
+
+@media (min-width:767px) and (max-width:992px) {
+    .blog .card .image1:after,
+    .blog .card .image2:after,
+    .blog .card .image3:after {
+        left: 30%
+    }
+    .card-footer {
+        flex-direction: column;
+    }
+    .auther {
+        text-align: left;
+    }
+    .time {
+        text-align: right;
+    }
+}
+
+
+<<<<<<< Updated upstream
 /*End Services Section*/
 
 
@@ -149,3 +398,7 @@ body {
 
 
 /*End Blog Section*/
+=======
+/*End Blog Section*/
+>>>>>>> 240001e5eca279e01f73c161db4a78f73d5aab61
+>>>>>>> Stashed changes
