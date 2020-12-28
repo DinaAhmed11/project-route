@@ -226,7 +226,53 @@ body {
 =======
 /*End Services Section*/
 
+/*===================DINA===============*/
 
+
+/*Start Portfolio Section*/
+
+.portfolio .card img {
+  transition: 1s transform ease-in-out;
+}
+
+.portfolio .card:hover img {
+  transform: scale(1.4);
+}
+
+.card-body p {
+  font-size: 11px
+}
+
+.card-body span {
+  color: #0078ff
+}
+
+.card-body .right-icon {
+  position: absolute;
+  right: 9px;
+  bottom: 36px;
+  font-size: 28px;
+}
+
+
+/*End Portfolio Section*/
+/*Start Testimonials Section*/
+
+.testimonial {
+  background-image: url("../img/overlay-bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+.testimonial .overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 120, 255, .7);
+}
+
+
+/*End Testimonials Section*/
 
 
 /*===================AMGAD===============*/
