@@ -63,3 +63,89 @@ body {
 
 
 /*End Services Section*/
+
+
+
+
+/*===================AMGAD===============*/
+
+
+/*Start Blog Section*/
+
+.blog .card .image1,
+.blog .card .image2,
+.blog .card .image3 {
+    position: relative;
+}
+
+.blog .card .image1:after,
+.blog .card .image2:after,
+.blog .card .image3:after {
+    width: 95px;
+    height: 27px;
+    background-color: #0078ff;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    line-height: 28px;
+    border-radius: 7px;
+    position: absolute;
+    bottom: -15px;
+    left: 38%
+}
+
+.blog .card .image1:after {
+    content: "Travel";
+}
+
+.blog .card .image2:after {
+    content: "Web Design";
+}
+
+.blog .card .image3:after {
+    content: "Web Design";
+}
+
+.blog .card a {
+    color: #000;
+    text-decoration: none;
+    transition: .5s all ease-in-out
+}
+
+.blog .card a:hover {
+    color: #0078ff
+}
+
+.blog .card .card-footer a {
+    font-size: 16px;
+    line-height: 36px;
+}
+
+.blog .card .card-footer .auther img {
+    width: 35px;
+    height: 35px
+}
+
+.blog .card .card-footer .time {
+    line-height: 35px;
+}
+
+@media (min-width:767px) and (max-width:992px) {
+    .blog .card .image1:after,
+    .blog .card .image2:after,
+    .blog .card .image3:after {
+        left: 30%
+    }
+    .card-footer {
+        flex-direction: column;
+    }
+    .auther {
+        text-align: left;
+    }
+    .time {
+        text-align: right;
+    }
+}
+
+
+/*End Blog Section*/
